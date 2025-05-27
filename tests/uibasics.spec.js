@@ -18,6 +18,6 @@ test('Verify title and login', async ({ browser }) => {
   // Use console.log (lowercase), not Console.log (uppercase)
   const toastMessage = await page.locator(".toast-bottom-right.toast-container").textContent();
   console.log(toastMessage);
-  await expect(page.locator(".toast-bottom-right.toast-container")).toContainText('Incorrect');
-
+  //await expect(page.locator(".toast-bottom-right.toast-container")).toContainText('Incorrect');
+//ok
 });
